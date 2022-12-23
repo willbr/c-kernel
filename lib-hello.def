@@ -1,4 +1,6 @@
 LIBRARY lib-hello.dll
 
 EXPORTS
+double_float
+double_int
 say_hello
