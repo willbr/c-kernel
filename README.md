@@ -1,4 +1,4 @@
-Call a C function from Python
+# Call a C function from Python
 
 ```c
 #include <stdio.h>
@@ -21,3 +21,27 @@ dll = WinDLL('./lib-hello.dll')
 dll.say_hello()
 ```
 
+
+# C repl
+Actor model
+
+* repl
+* tcp repl
+* live load DLL
+* live compile c
+* live compile my own language
+* list functions
+* call functions
+
+```
+Root
+|
+|-Process
+| |-Thread
+| |-Thread
+|
+|-Process
+  |-Thread
+  |-Thread
+
+```
